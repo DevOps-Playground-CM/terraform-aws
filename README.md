@@ -7,13 +7,21 @@ Welcome to the **DevOps Playground Terraform Repo** — a curated collection of 
 ## 📁 Folder Structure (Example)
 
 `terraform-aws/`
+
 ├── `vpc-setup/`               # Create a VPC with subnets, IGW, and route tables
+
 ├── `ec2-instance/`            # Launch EC2 with key pair, security group, and userdata
+
 ├── `s3-bucket/`               # Provision secure and versioned S3 buckets
+
 ├── `rds-mysql/`               # Deploy RDS MySQL with subnet group and security group
+
 ├── `iam-roles/`               # Create IAM roles and policies for EC2 and Lambda
+
 ├── `cloudwatch-alarms/`       # Set up alarms for EC2, RDS, and Lambda
+
 ├── `ecs-cluster/`             # Bootstrap an ECS Cluster with networking
+
 └── `terraform-backend/`       # Remote backend setup with S3 and DynamoDB
 
 Each folder includes:
